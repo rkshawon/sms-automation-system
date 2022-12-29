@@ -1,0 +1,19 @@
+.delay_node_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.delay_node_body div {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px 1px rgba(221, 221, 221, 0.75);
+  margin: 10px 0;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.delay_node_body input {
+  width: 20%;
+  margin-left: 5px;
+}

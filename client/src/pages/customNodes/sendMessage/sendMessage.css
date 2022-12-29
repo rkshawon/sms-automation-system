@@ -1,0 +1,44 @@
+.send_message_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.send_message_body div {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px 1px rgba(221, 221, 221, 0.75);
+  margin: 10px 0;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.send_message_body textarea {
+  width: 84%;
+}
+.save_btn_container {
+  padding: 10px;
+  width: 85%;
+  box-shadow: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.unsaved {
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 5px 12px;
+  font-size: 12px;
+  color: white;
+  background-color: rgb(0, 156, 247);
+}
+.saved {
+  cursor: not-allowed;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 5px 12px;
+  font-size: 12px;
+  color: white;
+}
